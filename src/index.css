@@ -2,4 +2,39 @@
   padding: 0;
   margin: 0;
   font-family: "Ralewat",sans-serif;
+  color: #fff;
+}
+
+body,
+html{
+  min-height: 100vh;
+  height: 100%;
+  background-color: rgb(24, 23, 23);
+}
+
+img{
+  max-width: 100%;
+}
+
+button{
+  width: 7.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: .8rem, 1.5rem;
+  background: linear-gradient(
+    90deg, 
+    rgba(189, 96, 15, 1) 0%,
+    rgba(219, 164, 46, 1) 100%
+  );
+  border-radius: 3rem;
+  border: none;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg, 
+    rgba(219, 164, 46, 1) 0%,
+    rgba(189, 96, 15, 1) 100%
+  );
 }
