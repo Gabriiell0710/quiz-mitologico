@@ -12,3 +12,12 @@
     opacity: 1;
 }
 
+.corretc{
+    background-color: #20bb34;
+    font-weight: bold;
+}
+
+.wrong{
+    background-color: #6b1411;
+    opacity: 0.7;
+}
