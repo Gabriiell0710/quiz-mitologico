@@ -20,3 +20,28 @@
     width: 11rem;
     color: rgb(24, 23, 23)
 }
+
+#question .tip{
+    width: 7rem;
+}
+
+#question .delete{
+    width: 11rem;
+    padding: 6px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#question .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+}
+
+#tip{
+    color: #2b2a2a;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: oblique;
+}

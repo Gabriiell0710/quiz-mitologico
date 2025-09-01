@@ -28,9 +28,33 @@ const Question = () => {
             key={option}
             answer={currentQuestion.answer}
             selectOption={() => onSelectOption(option)}
+            hide={quizState.optionToHide === option ? "hide" : null}
           />
         ))}
       </div>
+      <div className="button-container">
+        {!quizState.answerSelected && !quizState.help && (
+          <>
+            {currentQuestion.tip && (
+              <button
+                className="tip"
+                onClick={() => dispatch({ type: "SHOW_TIP" })}
+              >
+                Dica
+              </button>
+            )}
+            <button
+              className="delete"
+              onClick={() => dispatch({ type: "REMOVE_OPTION" })}
+            >
+              Excluir uma
+            </button>
+          </>
+        )}
+      </div>
+      {!quizState.answerSelected && quizState.help === "tip" && (
+        <p id="tip">{currentQuestion.tip}</p>
+      )}
       {quizState.answerSelected && (
         <button onClick={() => dispatch({ type: "CHANGE_QUESTION" })}>
           Continuar
