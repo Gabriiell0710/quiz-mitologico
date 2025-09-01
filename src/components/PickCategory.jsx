@@ -16,17 +16,19 @@ const PickCategory = () => {
     dispatch({ type: "REORDER_QUESTIONS" });
   }
 
+  const categories = ["Grega", "Nórdica", "Egípcia"];
+
   return (
     <div id="category">
       <div className="tex-content">
         <h2>Escolha uma categoria</h2>
         <p>As perguntas serão referentes a uma das mitologias abaixo:</p>
-        {quizState.questions.map((question) => (
+        {categories.map((cat) => (
           <button
-            onClick={() => chooseCategoryAndReorderQuestions(question.category)}
-            key={question.category}
+            onClick={() => chooseCategoryAndReorderQuestions(cat)}
+            key={cat}
           >
-            {question.category}
+            {cat}
           </button>
         ))}
       </div>
