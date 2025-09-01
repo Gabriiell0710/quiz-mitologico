@@ -10,7 +10,7 @@ const GameOver = () => {
   return (
     <div id="gameover">
       <h2>Fim de Jogo</h2>
-      <p>Ponturação: {quizState.score}</p>
+      <p>Pontuação: {quizState.score}</p>
       <p>
         Você acertou {quizState.score} de {quizState.questions.length}{" "}
         perguntas.
