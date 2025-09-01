@@ -1,0 +1,44 @@
+#category {
+  text-align: center;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#category h2,
+#category p {
+  margin-bottom: 1rem;
+}
+
+#category p {
+  color: #ca8011;
+}
+
+#images{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.image{
+   margin-top: 2rem;
+   max-width: 30%;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+
+.image:hover{
+    transform:  scale(0.95);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+    background-color: aliceblue;
+}
+
+#category button {
+  margin: 1rem;
+  gap: 10px;
+  width: 150px;
+  color: rgb(24, 23, 23);
+}
