@@ -15,7 +15,7 @@ const data = [
       },
       {
         question: "Quem matou a Medusa?",
-        options: ["Perseu", "Teseu", "Aquiles", "Odisseu"],
+        options: ["Odisseu", "Teseu", "Aquiles", "Perseu"],
         answer: "Perseu",
       },
       {
@@ -25,36 +25,36 @@ const data = [
       },
       {
         question: "Quem é considerado o deus dos viajantes e ladrões?",
-        options: ["Hermes", "Apolo", "Dionísio", "Ares"],
+        options: ["Dionísio", "Apolo", "Hermes", "Ares"],
         answer: "Hermes",
         tip: "É conhecido por sua rapidez",
       },
       {
         question: "Qual titã devora os próprios filhos?",
-        options: ["Cronos", "Urano", "Oceano", "Hiperion"],
+        options: ["Urano", "Cronos", "Oceano", "Hiperion"],
         answer: "Cronos",
         tip: "Pai de Zeus",
       },
       {
         question: "Quem transformou Aracne em aranha?",
-        options: ["Atena", "Deméter", "Hera", "Héstia"],
+        options: ["Héstia", "Deméter", "Hera", "Atena"],
         answer: "Atena",
       },
       {
-        question: "Quem foi o heróis que realizou os 12 trabalhos?",
+        question: "Quem foi o herói que realizou os 12 trabalhos?",
         options: ["Hércules", "Perseu", "Aquiles", "Jasão"],
         answer: "Hércules",
       },
       {
         question: "O oráculo de Delfon era dedicado a qual deus?",
-        options: ["Apolo", "Zeus", "Hermes", "Dionísio"],
+        options: ["Hermes", "Zeus", "Apolo", "Dionísio"],
         answer: "Apolo",
         tip: "Relacionado ao sol",
       },
       {
         question:
           "Qual era o monstro que devorava jovens em Creta até ser morto por Teseu?",
-        options: ["Minotauro", "Cérbero", "Hidra", "Quimera"],
+        options: ["Cérbero", "Minotauro", "Hidra", "Quimera"],
         answer: "Minotauro",
       },
     ],
@@ -70,7 +70,7 @@ const data = [
       },
       {
         question: "Quem era o deus da trapaça?",
-        options: ["Thor", "Loki", "Balder", "Try"],
+        options: ["Thor", "Balder", "Loki", "Try"],
         answer: "Loki",
         tip: "Irmão de Thor",
       },
@@ -81,12 +81,12 @@ const data = [
       },
       {
         question: "Quem matou Balder, o deus da luz?",
-        options: ["Loki", "Fenrir", "Stur", "Try"],
+        options: ["Fenrir", "Loki", "Stur", "Try"],
         answer: "Loki",
       },
       {
         question: "Qual o nome do lobo destinado a devorar Odin no Ragnarök?",
-        options: ["Fenrir", "Jörmungandr", "Garm", "Hati"],
+        options: ["Hati", "Jörmungandr", "Garm", "Fenrir"],
         answer: "Fenrir",
       },
       {
@@ -96,8 +96,8 @@ const data = [
         tip: "Pai de todos",
       },
       {
-        question: "Qaual era o reino dos mortos dovernado por Hel?",
-        options: ["Niflheim", "Vanaheim", "Muspelheim", "Alfheim"],
+        question: "Qual era o reino dos mortos governado por Hel?",
+        options: ["Alfheim", "Vanaheim", "Muspelheim", "Niflheim"],
         answer: "Niflheim",
       },
       {
@@ -113,7 +113,7 @@ const data = [
       },
       {
         question: "Quem era conhecido como o guardião da ponte Bifröst?",
-        options: ["Heimdall", "Try", "Bragi", "Vidar"],
+        options: ["Try", "Heimdall", "Bragi", "Vidar"],
         answer: "Heimdall",
       },
       {
@@ -136,7 +136,7 @@ const data = [
       {
         question:
           "Qual deusa represenvava a justiça e a verdade, simbolizada por uma pena?",
-        options: ["Ísis", "Maat", "Bastet", "Hathor"],
+        options: ["Ísis", "Hathor", "Bastet", "Maat"],
         answer: "Maat",
         tip: "Deusa que pesa o coração",
       },
@@ -147,7 +147,7 @@ const data = [
       },
       {
         question: "Qual animal era associado ao deus Sobek?",
-        options: ["Falcão", "Crocodilo", "Gato", "Escaravelho"],
+        options: ["Falcão", "Gato", "Crocodilo", "Escaravelho"],
         answer: "Crocodilo",
         tip: "Rio Nilo",
       },
@@ -160,7 +160,7 @@ const data = [
       {
         question:
           "Qual era o deus do sol, muitas vezes representado com um disco solar?",
-        options: ["Rá", "Ptah", "Khnum", "Thot"],
+        options: ["Khnum", "Ptah", "Thot", "Rá"],
         answer: "Rá",
       },
       {
@@ -170,7 +170,7 @@ const data = [
       },
       {
         question: "Quem era o deus da sabedoria e da escrita?",
-        options: ["Thot", "Anúbis", "Hórus", "Khepri"],
+        options: ["Hórus", "Anúbis", "Thot", "Khepri"],
         answer: "Thot",
         tip: "Relacionado com Hermes Trismegisto",
       },
