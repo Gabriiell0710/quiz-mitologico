@@ -101,3 +101,19 @@
   color: rgb(24, 23, 23);
 }
 }
+@media(max-width:484px){
+  #category {
+  text-align: center;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+#category button {
+  margin: 1rem 1rem;
+  gap: 8px;
+  width: 125px;
+  color: rgb(24, 23, 23);
+}
+}

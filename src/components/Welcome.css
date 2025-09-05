@@ -1,6 +1,7 @@
 #welcome{
     text-align: center;
     max-width: 500px;
+    overflow: hidden;
 }
 
 #welcome h2,
@@ -27,6 +28,7 @@
     #welcome{
     text-align: center;
     max-width: 600px;
+    overflow: hidden;
 }
 
 #welcome h2,
@@ -52,5 +54,6 @@
     #welcome{
     text-align: center;
     max-width: 430px;
+    overflow: hidden;
 }
 }
